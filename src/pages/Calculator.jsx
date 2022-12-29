@@ -56,7 +56,7 @@ function Calculator() {
   };
 
   return (
-    <div className="App p-[16px] flex h-[100vh] justify-center items-center border border-blue-700">
+    <div className="App p-[16px] flex h-[80vh] justify-center items-center">
       <div className="calculator w-[100%] max-w-[400px] bg-white rounded-[16px] overflow-hidden shadow-xl">
         <div className="display p-[16px] text-right bg-neutral-900 text-white text-[24px] font-[300]">
           {result ? (
@@ -123,12 +123,6 @@ function Calculator() {
           </button>
         </div>
       </div>
-      <Link to="/todo">
-        <div className="ml-10 flex justify-center items-center h-10 w-32 bg-black text-white rounded-lg">
-          <button>TODO APP</button>
-          <HiArrowRight className="ml-2" />
-        </div>
-      </Link>
     </div>
   );
 }
