@@ -56,8 +56,8 @@ function NoteApp() {
 
   return (
     <div className={`${darkMode ? "dark:bg-black" : ""}`}>
-      <div className="max-w-[960px] mr-auto ml-auto pr-[15px] pl-[15px] h-screen">
-        <Header handleToggleDarkMode={setDarkMode} darkMode={darkMode}/>
+      <div className="max-w-[960px] mr-auto ml-auto pr-[15px] pl-[15px] min-h-screen">
+        <Header handleToggleDarkMode={setDarkMode} darkMode={darkMode} />
         <Search handleSearchText={setSearchText} />
         <NoteList
           notes={notes.filter((note) =>
