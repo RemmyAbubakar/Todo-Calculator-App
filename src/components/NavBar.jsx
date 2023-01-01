@@ -15,6 +15,9 @@ function NavBar() {
           <Link to="/noteapp">
             <li>Note App</li>
           </Link>
+          <Link to="/weatherapp">
+            <li>Weather App</li>
+          </Link>
         </ul>
       </nav>
     </div>
